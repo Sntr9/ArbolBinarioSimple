@@ -26,11 +26,9 @@ Representa cada caja de datos en el árbol. Contiene:
 ### Clase ArbolBinario
 Maneja la lógica del árbol, incluyendo la **raíz** (el punto de partida del árbol) y los siguientes métodos:
 
-| Método | Función | Definición |
-| :--- | :--- | :--- |
-| `insertar(valor)` | **Inserción** | Recorre el árbol recursivamente desde la raíz, siguiendo la regla del ABB (menor a izquierda, mayor a derecha) hasta encontrar un espacio libre. |
-| `recorridoInorden()` | **Recorrido** | Sigue la secuencia: **Izquierda → Raíz → Derecha**. Este recorrido es la **prueba de fuego** del ABB, ya que siempre mostrará los números **ordenados** de menor a mayor. |
-| `buscar(valor)` | **Búsqueda** | Utiliza la misma lógica de inserción para reducir el área de búsqueda, yendo a la izquierda o derecha en cada paso, lo que hace la búsqueda muy eficiente. |
+insertar(valor)
+recorridoInorden()
+buscar(valor)
 
 ### Clase App (Clase Principal)
 Contenido el método `main` y el menú interactivo en consola para que el usuario pueda probar todas las funcionalidades.
@@ -48,4 +46,5 @@ Al ejecutar el programa, aparecerá el menú:
 ## DOCENTE
 
 * **Steven Zuluaga Cortes** 
+
 
