@@ -17,22 +17,22 @@ Esta regla es lo que permite que la búsqueda y el ordenamiento sean muy rápido
 
 El código está dividido en tres componentes principales, todos contenidos en el archivo `App.java`:
 
-### 1. Clase `Nodo`
+### Clase `Nodo`
 Representa cada caja de datos en el árbol. Contiene:
 * `valor`: El número entero almacenado.
 * `izquierda`: Una referencia al nodo hijo izquierdo.
 * `derecha`: Una referencia al nodo hijo derecho.
 
-### 2. Clase `ArbolBinario`
+### Clase `ArbolBinario`
 Maneja la lógica del árbol, incluyendo la **raíz** (el punto de partida del árbol) y los siguientes métodos:
 
-| Método | Función | Explicación Sencilla |
+| Método | Función | Definición |
 | :--- | :--- | :--- |
 | `insertar(valor)` | **Inserción** | Recorre el árbol recursivamente desde la raíz, siguiendo la regla del ABB (menor a izquierda, mayor a derecha) hasta encontrar un espacio libre. |
 | `recorridoInorden()` | **Recorrido** | Sigue la secuencia: **Izquierda → Raíz → Derecha**. Este recorrido es la **prueba de fuego** del ABB, ya que siempre mostrará los números **ordenados** de menor a mayor. |
 | `buscar(valor)` | **Búsqueda** | Utiliza la misma lógica de inserción para reducir el área de búsqueda, yendo a la izquierda o derecha en cada paso, lo que hace la búsqueda muy eficiente. |
 
-### 3. Clase `App` (Clase Principal)
+### Clase `App` (Clase Principal)
 Contiene el método `main` y el **menú interactivo en consola** para que el usuario pueda probar todas las funcionalidades.
 
 
@@ -46,4 +46,5 @@ Al ejecutar el programa, aparecerá el menú:
 * **Santiago Lopez Restrepo** - (santiago.lopezr@est.iudigital.edu.co )
 
 ## DOCENTE
+
 * **Steven Zuluaga Cortes** 
