@@ -26,9 +26,9 @@ Representa cada caja de datos en el árbol. Contiene:
 ### Clase ArbolBinario
 Maneja la lógica del árbol, incluyendo la **raíz** (el punto de partida del árbol) y los siguientes métodos:
 
-insertar(valor)
-recorridoInorden()
-buscar(valor)
+* `insertar`
+* `recorrido`
+* `buscar`
 
 ### Clase App (Clase Principal)
 Contenido el método `main` y el menú interactivo en consola para que el usuario pueda probar todas las funcionalidades.
@@ -46,5 +46,6 @@ Al ejecutar el programa, aparecerá el menú:
 ## DOCENTE
 
 * **Steven Zuluaga Cortes** 
+
 
 
