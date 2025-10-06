@@ -37,7 +37,9 @@ Contenido el método `main` y el menú interactivo en consola para que el usuari
 ## Ejecución en Consola
 
 Al ejecutar el programa, aparecerá el menú:
-
+<img width="840" height="143" alt="image" src="https://github.com/user-attachments/assets/b814fbd7-df48-4f91-8880-4738b03f4c5e" />
+<img width="806" height="455" alt="image" src="https://github.com/user-attachments/assets/86f79abe-0e23-4f35-adb1-67f356a10fa2" />
+<img width="807" height="457" alt="image" src="https://github.com/user-attachments/assets/f8c45e28-f0b1-4b8a-9ef2-84c7bdc3dd5b" />
 
 
 ## Contribuyentes
@@ -46,6 +48,7 @@ Al ejecutar el programa, aparecerá el menú:
 ## DOCENTE
 
 * **Steven Zuluaga Cortes** 
+
 
 
 
