@@ -1,7 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-
 // Estructura básica de cada elemento del árbol
 
 class Nodo {
@@ -63,7 +62,7 @@ class ArbolBinario {
         }
     }
 
-    // --- Buscar ---
+    //Buscar
     public boolean buscar(int valor) {
         return buscarRecursivo(raiz, valor);
     }
@@ -154,4 +153,5 @@ public class App {
         }
         scanner.close();
     }
+
 }
